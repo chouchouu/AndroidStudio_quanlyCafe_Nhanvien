@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_oder_item"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_ten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/bell"
+        android:gravity="center"
+        android:text="Danh Sách Giỏ Hàng"
+        android:textColor="#ffff"
+        android:textSize="40dp"></TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cardview_giohang"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"></androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_tongtien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Tổng Tiền"></Button>
+
+        <TextView
+            android:id="@+id/edt_tongtien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#fff"></TextView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_thanhtoangiohang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Thanh Toán"></Button>
+</LinearLayout>

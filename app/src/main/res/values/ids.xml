@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="imv_oder" type="id" />
+    <item name="tv_oder" type="id" />
+    <item name="tv_mota" type="id" />
+    <item name="tv_gia" type="id" />
+    <item name="btntru" type="id" />
+    <item name="btn_thanhtoan" type="id" />
+</resources>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CECACA">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Thanh Toán"
+        android:textColor="#ffff"
+        android:gravity="center"
+        android:background="#2B0101"
+        android:fontFamily="@font/bell"
+        android:textSize="25dp"/>
+        <ImageView
+            android:id="@+id/btn_huy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/arrowback" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/bg_bill">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/bell"
+            android:text="Tên Sản Phẩm:"
+            android:textColor="#f000"
+            ></TextView>
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/bell"
+            android:hint="Tên"
+            android:textColor="#f000"
+            android:textColorHint="#000000"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/bell"
+            android:text="Giá Sản Phẩm:"
+            android:textColor="#f000"
+           ></TextView>
+        <TextView
+            android:id="@+id/tv_money"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/bell"
+            android:hint="Giá"
+            android:textColor="#f000"
+            android:textColorHint="#000000"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+           android:layout_weight="1"
+            android:fontFamily="@font/bell"
+            android:text="Mô Tả:"
+            android:textColor="#f000"></TextView>
+        <TextView
+            android:id="@+id/tv_mt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tv_money"
+            android:layout_weight="1"
+            android:fontFamily="@font/bell"
+            android:hint="Mô Tả"
+            android:textColor="#f000"
+            android:textColorHint="#000000"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:text="Ngày Mua"
+            android:textColor="#f000"></TextView>
+        <TextView
+            android:id="@+id/tvngaymua"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/ed_soluong"
+            android:layout_weight="1"
+            android:hint="Ngày"
+            android:textColor="#f000"
+            android:textColorHint="#000000"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/ed_soluong"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tv_mt"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/bell"
+            android:hint="Nhập Số Lượng:"
+            android:layout_marginRight="20dp"
+            android:inputType="number"
+            android:textColor="#f000"
+            android:textColorHint="#3D0202"
+            />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical">
+        <Button
+            android:id="@+id/btn_chon"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tvngaymua"
+            android:background="@drawable/btn_thanhtoan"
+            android:text="Bill"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#CECACA"/>
+         <Button
+             android:layout_marginRight="20dp"
+             android:layout_marginLeft="20dp"
+             android:layout_marginTop="10dp"
+             android:id="@+id/btn_giohangDrink"
+             android:layout_weight="1"
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:background="@drawable/btn_thanhtoan"
+             android:text="Thêm Vào Giỏ Hàng"
+             android:textColor="#CECACA"></Button>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/star"></item>
+    <item
+        android:id="@+id/sotre"
+        android:title="Store"
+        android:icon="@drawable/shop"></item>
+    <item
+        android:id="@+id/oder"
+        android:title="Oder"
+        android:icon="@drawable/coffeecup"></item>
+    <item
+        android:id="@+id/statistical"
+        android:title="Statis"
+        android:icon="@drawable/fluctuation"></item>
+    <item
+        android:id="@+id/account"
+        android:title="Account"
+        android:icon="@drawable/users"></item>
+
+</menu>

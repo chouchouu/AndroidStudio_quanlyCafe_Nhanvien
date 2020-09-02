@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:background="@drawable/cafeback"
+            android:orientation="vertical"
+            android:id="@+id/line">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Coffee - Team"
+                android:textColor="#fff"
+                android:textSize="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/infroman"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="---------------------------"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EXCLUSIVE COFFE BLENDS"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:fontFamily="@font/casteler"></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:background="@drawable/iconcafe"></ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line"
+            android:orientation="vertical"
+            android:id="@+id/line1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Products Categories "
+                android:fontFamily="@font/bell"
+                android:padding="10dp"
+                android:gravity="center"
+                android:id="@+id/products"
+                android:textColor="#020202"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@id/line1"
+            android:background="@drawable/bac">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="----"
+                android:textColor="#ffff"
+                android:textSize="30dp"
+                android:gravity="center"></TextView>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_below="@id/line1"
+                android:id="@+id/recyclerview"
+                android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="...."
+                android:layout_margin="2dp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:id="@+id/love"></TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="15dp"
+                    android:text="Choose your drink"
+                    android:textColor="#FAC26F"
+                    android:layout_marginLeft="30dp"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="See All >>"
+                    android:textSize="15dp"
+                    android:textColor="#FAC26F"
+                    android:layout_marginLeft="30dp"></TextView>
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/recyclerview_drink"></androidx.recyclerview.widget.RecyclerView>
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

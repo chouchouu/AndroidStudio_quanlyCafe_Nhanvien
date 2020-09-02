@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="73dp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="#2B0101"
+    android:text="Oder"
+    android:textColor="#ffff"
+    android:gravity="center"
+    android:textSize="25dp"
+    android:fontFamily="@font/bell"
+    />
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/arrowback"/>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_marginTop="55dp"
+        android:layout_width="match_parent"
+        app:tabTextColor="#2B0101"
+        android:layout_height="wrap_content"/>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
+        android:layout_below="@+id/tablayout"
+        id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</RelativeLayout>

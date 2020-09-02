@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Creat_Login_Activity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bac" />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/iconcafe" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAFE | TEAM"
+        android:layout_marginLeft="15dp"
+        android:textSize="15dp"
+        android:layout_marginTop="100dp"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:textSize="30dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#FFFFFF"
+        android:text="Sign Up"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name:"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#FFFFFF"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="215dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#FFFFFF"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="280dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password Again:"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#FFFFFF"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="350dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone:"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#FFFFFF"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="425dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#FFFFFF"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="500dp"/>
+    <Button
+        android:id="@+id/btnok"
+        android:text="SUCCESS"
+        android:background="@drawable/cafecreate"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="180dp"
+        android:textColor="#fff"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnNO"
+        android:text="CANCLE"
+        android:background="@drawable/cafecreate"
+        android:layout_marginTop="550dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="230dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>

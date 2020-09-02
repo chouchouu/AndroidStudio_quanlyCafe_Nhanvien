@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bac"
+    tools:context=".oder.Add_drinkActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Drink"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:fontFamily="@font/casteler"
+        android:padding="20dp"></TextView>
+    <ImageView
+        android:id="@+id/imgcafe"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="60dp" />
+    <Button
+        android:id="@+id/btnchoose"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="Choose a file"
+        android:textColor="#ffff"
+        android:background="#353535"
+        android:layout_below="@+id/imgcafe"/>
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/btnchoose"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:hint="Tên Thức Uống"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edt_gia"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/edt_name"
+        android:hint="Giá Sản Phẩm"
+        android:inputType="number"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edt_mota"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/edt_gia"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:hint="Mô Tả"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/btn_them"
+        android:text="SUCCESS"
+        android:background="@drawable/cafecreate"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="180dp"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_gia"/>
+    <Button
+
+        android:id="@+id/btn_huy"
+        android:text="CANCLE"
+        android:background="@drawable/cafecreate"
+        android:layout_marginTop="70dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_gia"/>
+
+</RelativeLayout>

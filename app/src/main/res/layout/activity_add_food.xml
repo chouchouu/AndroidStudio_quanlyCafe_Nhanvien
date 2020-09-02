@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bac"
+    tools:context=".oder.Add_foodActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Food"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:fontFamily="@font/casteler"
+        android:padding="20dp"></TextView>
+    <ImageView
+        android:id="@+id/imgfood"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="60dp" />
+    <Button
+        android:id="@+id/btnchoose_food"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="Choose a file"
+        android:textColor="#ffff"
+        android:background="#353535"
+        android:layout_below="@+id/imgfood"/>
+
+    <EditText
+        android:id="@+id/edt_food"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/imgfood"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:hint="Tên Đồ Ăn"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edt_giafood"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/edt_food"
+        android:hint="Giá Sản Phẩm"
+        android:inputType="number"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edt_mtfood"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/edt_giafood"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:hint="Mô Tả"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_addfood"
+        android:text="SUCCESS"
+        android:background="@drawable/cafecreate"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="180dp"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_mtfood"/>
+    <Button
+        android:id="@+id/btn_cancel"
+        android:text="CANCLE"
+        android:background="@drawable/cafecreate"
+        android:layout_marginTop="70dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_mtfood"/>
+
+</RelativeLayout>

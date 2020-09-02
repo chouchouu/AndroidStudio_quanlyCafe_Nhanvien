@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bac">
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/txt1"
+          android:text="Danh Sách Nhân Viên"
+          android:textColor="#fff"
+          android:textSize="20dp"
+          android:gravity="center"
+          android:fontFamily="@font/casteler"
+          android:layout_margin="20dp"></TextView>
+      <EditText
+          android:layout_below="@id/txt1"
+          android:textColor="#fff"
+          android:id="@+id/txt_search"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:background="@drawable/cafecreate"
+          android:layout_margin="20dp"
+          android:hint="Tìm Kiếm Nhân Viên ..."
+          android:textColorHint="#fff"
+          android:padding="10dp"
+          android:drawableStart="@drawable/loupe"
+          android:drawablePadding="20dp"
+          ></EditText>
+      <androidx.recyclerview.widget.RecyclerView
+          android:layout_below="@+id/txt_search"
+          android:id="@+id/recy_account"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+
+  </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

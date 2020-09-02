@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_oder_item"
+    tools:context=".oder.Main2Activity_Oder">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/tym"/>
+    <ImageView
+        android:id="@+id/imvtick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tick"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="50dp"/>
+    <TextView
+        android:id="@+id/tvten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imvtick"
+        android:text="Thanh Toán Thành Công!"
+        android:textColor="#FAC26F"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/tvtenoder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YOUR ORDER"
+        android:layout_below="@+id/tvten"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#C7C6C6"/>
+    <TextView
+        android:layout_below="@+id/tvtenoder"
+        android:layout_marginLeft="20dp"
+        android:text="Số Lượng:"
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvgia1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/tvtenoder"
+        android:textColor="#ffff"
+        android:text="Số Lượng"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_below="@+id/tvtenoder"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/tvgia1"
+        android:layout_marginLeft="100dp"
+        android:text="Tên Sản Phẩm:"
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvten2"
+        android:layout_toRightOf="@+id/tvgia1"
+        android:layout_below="@+id/tvtenoder"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff"
+        android:text="Tên sản phẩm"/>
+    <TextView
+        android:layout_toRightOf="@+id/tvten2"
+        android:layout_below="@+id/tvtenoder"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:text="Giá"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvgia2"
+        android:layout_toRightOf="@+id/tvten2"
+        android:layout_below="@+id/tvtenoder"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff"
+        android:text="Giá"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvgia1"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/tvgia1"
+        android:text="Ngày:"
+        android:textColor="#ffff"/>
+
+    <TextView
+        android:id="@+id/tvngay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvgia2"
+        android:text="Ngày"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffff"/>
+    <Button
+        android:id="@+id/btn_thanhtoan2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvngay"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/btn_thanhtoan"
+        android:layout_marginTop="130dp"
+        android:textSize="18dp"
+        android:textColor="#FAD6A5"
+        android:text="Quay về"/>
+
+
+
+</RelativeLayout>

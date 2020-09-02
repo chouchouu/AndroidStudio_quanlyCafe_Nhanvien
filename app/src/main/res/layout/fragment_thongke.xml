@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+
+        android:background="@drawable/iconcafe" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/casteler"
+        android:gravity="center"
+        android:text="----- Lịch Sử Bán Hàng -----"
+        android:textColor="#4E0404"
+        android:textSize="24dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_lichsu"
+        android:layout_width="match_parent"
+        android:layout_height="410dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rv_lichsu"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/btn_thanhtoan"
+        android:text="EXIT"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp" />
+
+</LinearLayout>

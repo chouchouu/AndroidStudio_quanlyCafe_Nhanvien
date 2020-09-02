@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bac" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/iconcafe" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:text="CAFE | TEAM"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="320dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/framelayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:text="Hey, Welcome back"
+            android:textColor="#1A1717"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-50dp"
+            android:background="@drawable/cafeten"
+            android:drawableStart="@drawable/nono"
+            android:drawablePadding="10dp"
+            android:hint="User Name"
+            android:padding="10dp"
+            android:text="lisa@gmail.com"
+
+            />
+
+        <EditText
+            android:id="@+id/passsword"
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/cafeten"
+            android:drawableStart="@drawable/view"
+            android:drawablePadding="10dp"
+            android:hint="Password"
+            android:padding="10dp"
+            android:text="lisa2000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="90dp"
+            android:text="----------------------------------------------------------------------------------"
+            android:textColor="#949292" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-80dp"
+            android:layout_marginTop="120dp"
+            android:text="Don't have an account?"
+            android:textColor="#4B4949" />
+
+        <TextView
+            android:id="@+id/txtlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="120dp"
+            android:text="Create an account" />
+
+        <Button
+            android:id="@+id/btnnext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="55dp"
+            android:background="@drawable/button_next"
+            android:text=">>>"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+    </FrameLayout>
+</FrameLayout>
